@@ -19,11 +19,11 @@ export const changeTheme = () => {
 
 export const changeText = () => {
     const themeBtn = document.querySelector("#themeBtn");
-    if (document.body.className === "Diseño") {
+    if (document.body.className === "Accesible") {
 
-        themeBtn.innerText = "Accesible";
-    } else {
         themeBtn.innerText = "Diseño";
+    } else {
+        themeBtn.innerText = "Accesible";
     }
 };
 

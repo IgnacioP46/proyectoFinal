@@ -1,5 +1,5 @@
-import './style.css';
-import { Navbar, changeTheme } from './components/navBar/navBar';
+import './style.css'
+import { Navbar, changeTheme, changeText } from './components/navBar/navBar';
 import { footer } from './components/footer/footer';
 import { home } from './pages/home/home';
 import Swal from 'sweetalert2';
@@ -18,4 +18,5 @@ document.addEventListener("DOMContentLoaded", () => {
     footerElem.innerHTML = footer();
 
     changeTheme();
+    changeText();
 });

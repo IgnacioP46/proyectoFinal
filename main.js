@@ -1,8 +1,6 @@
 import './style.css';
 import './carrito.html';
 import './details.html';
-import './sigUp.html';
-import './login.html';
 import { Navbar, changeTheme } from './components/navBar/navBar';
 import { footer } from './components/footer/footer';
 import { home } from './pages/home/home';

@@ -1,8 +1,8 @@
-import './style.css';
-import './carrito.js'
-import './PA.js'
-import './login.js'
-import './sigUp.js'
+import './pages/style.css';
+import './pages/carrito.js'
+import './pages/PA.js'
+import './pages/login.js'
+import './pages/sigUp.js'
 import { Navbar, changeTheme } from './components/navBar/navBar';
 import { footer } from './components/footer/footer';
 import { home } from './pages/home/home';

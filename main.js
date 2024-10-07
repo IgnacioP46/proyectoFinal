@@ -1,4 +1,4 @@
-import './pages/style.css';
+import './style.css';
 import './pages/carrito.js'
 import './pages/PA.js'
 import './pages/login.js'
